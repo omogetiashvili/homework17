@@ -1,0 +1,211 @@
+@media screen and (width >= 768px){
+  .container {
+    width: 100%;
+  }
+
+  body{
+    background-image: none;
+  }
+
+  .header{
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    padding-left: 39px;
+  }
+
+  .tabletback{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-20%);
+    z-index: 0;
+  }
+
+  .absolutecontent{
+
+    width: 635px;
+    height: 569px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    transform: translateY(20%);
+    background-color: #121725;;
+  }
+
+  .email{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-top: 140px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .companiestablet{
+    display: flex;
+    align-items: baseline;
+
+  }
+  
+  .companiesmob{
+    display: none;
+  }
+  .email button{
+    margin: 0;
+    width: 140px;
+    position: absolute;
+    right: 5px;
+    height: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 800;
+
+  }
+
+  .lastbackground {
+    width: 232px;
+    height: 104px;
+    position: absolute;
+    left: 30px;
+    background-image: url(./assets/Combined\ Shape\ 3.svg);
+    bottom: 0;
+  }
+
+  label{
+    display: flex;
+    position: relative;
+
+  }
+
+  .companyandbutton{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column-reverse;
+  }
+
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+  }
+
+  .content h1 {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: start;
+
+
+  }
+
+  .content h2 {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: start;
+    font-weight: 400;
+    opacity: 0.6;
+
+  }
+
+  .upload {
+    padding-top: 136px;
+    width: 445px;
+  }
+
+  .companies{
+    padding-top: 20px;
+  }
+
+  .publish {
+    width: 635px;
+    margin-top: 351px;
+    margin: 0;
+    padding-top: 91px;
+  }
+
+  .tabletback{
+    filter: opacity(0.3) drop-shadow(0 0 rgb(30, 179, 97));
+  }
+}
+
+@media screen and (width >= 1448px){
+  .container {
+    width: 100%;
+  }
+
+  .tabletback{
+    display: none;
+  }
+
+  .deskback{
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: -10px;
+    filter: opacity(0.3) drop-shadow(0 0 rgb(30, 179, 97));
+  }
+
+  .absolutecontent{
+
+    position: absolute;
+    left: 240px;
+    align-items: baseline;
+    top: -20px;
+
+  }
+
+  h1{
+    font-size: 52px;
+    line-height: 62px;
+  }
+
+
+  .lastbackground{
+    left: 100%;
+    transform: translateX(-100%);
+    bottom: 40px;
+  
+  }
+
+  .header {
+    padding-left: 150px;
+    padding-top: 40px;
+
+  }
+
+  .footer{
+    display: flex;
+    width: 100%;
+    height: 54px;
+    position: absolute;
+    bottom: -90px;
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

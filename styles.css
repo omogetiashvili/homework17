@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "chivo";
+}
+
+
+body {
+  background-color: #121725;
+  background-image: url(./assets/Bitmap\ \(18\).svg);
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  height: 900px;
+
+}
+
+button:hover{
+  border-radius: 28px;
+background: #B3FFE2;
+box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+opacity: 0.8;
+}
+
+.emailbutton:focus::after{
+  content: 'Oops! Please check your email';
+  display: flex;
+  width: 270px;
+  color: red;
+  position: relative;
+  top: 15px;
+  right: 180px;
+}
+
+.publish{
+  width: 337px;
+  height: 72px;
+  margin-top: 57px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 62px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 38px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+
+.content h1 {
+  color: #54E6AF;
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer{
+  display: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+.absolutecontent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabletback{
+  display: none;
+}
+
+h2{
+  line-height: 25px;
+  font-size: 15px;
+  color: #C2CBE5;
+}
+
+.content h2 {
+  text-align: center;
+  opacity: 0.7;
+}
+
+.content span{
+  margin: 0;
+  color: white;
+}
+
+.upload{
+  width: 327px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.companies{
+  width: 100%;
+  display: flex;
+  column-gap: 25px;
+  margin-top: 34px;
+  align-items: center;
+  justify-content: center;
+}
+
+.companiestablet{
+  display: none;
+}
+
+.deskback{
+  display: none;
+}
+
+.email{
+  margin-top: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.emailsearch{
+  width: 327px;
+  height: 46px;
+  border: 1px solid #2C344B;
+  border-radius: 28px;
+  background-color: #2C344B;
+  color: white;
+  padding-left: 10px;
+
+}
+
+.companyandbutton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email button{
+  color:#121725;
+  font-size: 14px;
+  line-height: 28px;
+  background: #54E6AF;
+  width: 326px;
+  height: 46px;
+  border: none;
+  border-radius: 28px;
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+  margin-top: 16px;
+
+}
+
+.emailsearch::placeholder{
+  color: white;
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 20px;
+}
